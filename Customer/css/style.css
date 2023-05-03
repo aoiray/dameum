@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #6B6363;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NEXON Lv2 Gothic';
+    font-size: 15px;
+    line-height: 25px;
+    color: #6B6363;
+    min-width: 1380px;
+}
+
+#header_wrap {
+    width: 1320px;
+    margin: 0 auto;
+    height: 236px;
+    text-align: center;
+
+}
+
+.header {
+    height: 145px;
+    position: relative;
+
+}
+
+.link {
+    position: absolute;
+    right: 0;
+    top: 58px;
+}
+
+.link li {
+    float: left;
+
+}
+
+.link li a {
+    display: block;
+    margin: 8px;
+}
+
+.logo {
+
+    padding-top: 58px;
+}
+
+.gnb {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.gnb li {
+    float: left;
+
+}
+
+.gnb li a {
+    display: block;
+    color: #6B6363;
+    font-weight: 500;
+    margin: 0 100px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#main_banner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main {
+    background: url(../images/main.jpg) no-repeat center top;
+    height: 404px;
+    color: #fff;
+    font-size: 110px;
+
+}
+
+.main_title {
+    padding-top: 176px;
+}
+
+#search{
+    width: 1320px;
+    margin:111px auto;
+    text-align: center;
+    color:#191818;
+    position: relative;
+}
+
+.title{
+    font-size: 29px;
+    font-weight: 700;
+  
+}
+.search_box{
+    width: 800px;
+    height: 60px;
+    border: 1px solid #707070;
+    border-radius: 68px;
+    position: absolute;
+    top: 87px;
+    right:259px;
+    background: url(../images/browes.png) no-repeat
+    right 46px center;
+
+}
+
+.under_title{
+    text-align: left;
+    padding:16px 0 0 51px;
+    color:#B2B2B2;
+
+}
+
+.under_title input{
+    width: 600px;
+    font-size: 20px;
+    border:none;
+    outline: 0;
+}
+
+#question{
+    width: 1320px;
+    margin:250px auto 0;
+    text-align: center;
+    color:#191818;
+   
+}
+
+/*section1*/
+
+/*.ab{color:red;}js제어*/
+
+#section1{width:1320px;
+    margin:60px auto 0;
+    overflow:hidden;}
+
+/*faq*/
+.font_10{font-size:33px;
+    font-weight:800;
+padding-top:11px;}
+
+.right{position:relative;
+width:1320px;
+padding:10px 0;
+float:right;
+overflow:hidden;
+border-radius:0 20px 20px 0;}
+.right ul li:nth-child(1){text-align:center;
+width:140px;
+float:left;}
+.right ul li:nth-child(2){width:1070px;float:left;}
+.right ul li:nth-child(3){width:110px;float:right;padding-top:17.5px}
+.right> li ul{width:100%;
+height:50px;
+padding:15px 0;
+overflow:hidden;}
+.text_info{background:#ffffff;
+        text-align:left;
+        overflow:hidden;}
+.right> li .text_info{display:none; padding:25px 0 30px 0;}
+.right> li .text_info{width:100%}
+.notice_line{height:1px;
+text-align:center;
+width:100%;
+margin:auto;
+background:#bcbcbc;}
+.notice_bg{height:781px}
+.right .font_18{position:relative;
+height:50px;
+color:#333;
+font-size:25px;}
+.right .font_18 .noc_po{position:absolute;
+left:2%;
+top:50%;
+transform:translateY(-50%);}
+.turn{transform:rotate(180deg);}
+.plus img{transition:transform 0.5s;}
+.text_info{
+    background-color: #E8E8E8;
+}
+.text_info p{float:left;
+        font-size:16px;
+    padding-left: 160px;
+    }
+
+    .red{
+        color:#ff0000;
+        font-weight: 700;
+    }
+
+    #nemo_box{
+        width: 1000px;
+        margin: 115px auto 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .box li{
+        float: left;  
+    }
+    
+    .box li a{ display: block;
+        float: left;  
+        margin-bottom: 40px;
+        
+
+    }
+    .box li:nth-child(2){
+        margin-left: 40px;
+    }
+    .box li:nth-child(3){
+        margin-left: 40px;
+    }
+    .box li:nth-child(5){
+        margin-left: 40px;
+    }
+    .box li:nth-child(6){
+        margin-left: 40px;
+    }
+
+    .none{
+        opacity: 0;
+    }
+    
+
+    .b1{
+        width: 294px;
+        height: 227px;
+        background-color: #69AE81;
+    }
+    
+    .b2{
+        width: 294px;
+        height: 227px;
+        background-color: #FF9595;
+    }
+    
+    .time, .counsel{
+    padding: 40px 114px 0 20px;
+    color: #191818;
+    }
+    .counsel1{
+        text-align: left;
+        color: #191818;
+        padding:80px 80px 22px 22px; 
+    }
+    .time{
+        font-size: 15px;
+        text-align: left;
+        line-height: 20px;
+    }
+    .clock{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .counsel{
+        font-size: 25px;
+        text-align: left;
+        padding-top: 95px;
+    }
+    .counsel2{
+
+    }
+    .number{
+        font-size: 25px;
+        text-align: left;
+        padding-top: 90px;
+    }
+
+.photo1{
+    background-image: url(../images/talk.png) ;
+    background-repeat: no-repeat;
+    background-position: right 40px top 80px;
+}
+.photo2{
+    background-image: url(../images/call.png) ;
+    background-repeat: no-repeat;
+    background-position: right 40px top 70px;
+}
+
+.photo3{
+    background-image: url(../images/write.png) ;
+    background-repeat: no-repeat;
+    background-position: right 42px top 66px;
+}
+
+.photo4{
+    background-image: url(../images/car.png) ;
+    background-repeat: no-repeat;
+    background-position: right 42px  top 56px;
+}
+
+.photo5{
+    background-image: url(../images/write_star.png) ;
+    background-repeat: no-repeat;
+    background-position: right 42px  top 37px;
+}
+  
+.photo6{
+    background-image: url(../images/delivery.png) ;
+    background-repeat: no-repeat;
+    background-position: right 44px  top 39px;
+}
+  
+
+#footer_wrap {
+    background-color: #FEBB86;
+    clear: both;
+    
+}
+
+.footer {
+   
+    width: 1320px;
+    margin: 66px auto 0;
+    height: 431px;
+
+}
+
+
+.footer img {
+    margin-bottom: 67px;
+    margin-top: 82px;
+}
+
+.sns {
+    float: right;
+}
+
+.sns li {
+    float: left;
+}
+
+.sns li a {
+    display: block;
+    float: left;
+    margin:0 20px 0 0;
+
+}
+
+.footer_menu li {
+    float: left;
+    margin: 0 87px 0 0;
+
+}
+
+.footer_menu li a {
+    display: block;
+    color: #65320A;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.address {
+    clear: both;
+    padding-top: 34px;
+    color: #65320A;
+}
+

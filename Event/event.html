@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1380">
+    <title>event</title>
+    <!-- swiper_css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff">
+</head>
+<body>
+    <div id="header_wrap">
+        <div class="header">
+            <ul class="link">
+                <li><a href="javascript:return false;"><img src="images/browes.png" alt="돋보기"></a></li>
+                <li><a href="javascript:return false;"><img src="images/mypage.png" alt="마이페이지"></a></li>
+                <li><a href="javascript:return false;"><img src="images/shipping.png" alt="장바구니"></a></li>
+            </ul>
+            <h1 class="logo">
+                <a href="../index.html"><img src="images/logo_main.svg" alt="logo"></a>
+            </h1>
+        </div>
+        <ul class="gnb">
+            <li><a href="../Brand/brand.html">BRAND</a></li>
+            <li><a href="../Menu/menu.html">MENU</a></li>
+            <li><a href="../Event/event.html">EVENT</a></li>
+            <li><a href="../Customer/customer.html">CUSTOMER</a></li>
+        </ul>
+    </div>
+
+     <!--slide swiper 시작-->
+     <div id="visual">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide visual_img"><img src="images/main_banner1.jpg" alt=""></div>
+                <div class="swiper-slide visual_img"><img src="images/main_banner2.jpg" alt=""></div>
+                <div class="swiper-slide visual_img"><img src="images/main_banner3.jpg" alt=""></div>
+            </div>
+             <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> 
+          <!--<div class="swiper-pagination"></div> --> 
+        </div>
+    </div>
+    <!--slide swiper 끝-->
+
+    <!--slide swiper 시작-->
+    <div id="event">
+        <!-- Swiper -->
+        <div class="swiper1 mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/event1.png" alt="event1" class="event1"></div>
+                <div class="swiper-slide"><img src="images/event2.png" alt="event2" class="event2"></div>
+        
+            </div>
+            <!--<div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>-->
+        </div>    
+    </div>
+    <!--slide swiper 끝-->
+
+    <div id="event1">
+        <ul class="nemo">
+    <li>
+        <div class="nemo1">
+        <h3 class="small_text">구매고객 감사 이벤트</h3>
+        <h1 class="large_text">커피쿠폰 쏜다!</h1>
+        </div>
+    </li>
+    <li>
+        <div class="nemo2">
+            <h3 class="small_text">한달간 무료 배송</h3>
+            <h1 class="large_text">배송비 없음</h1>
+        </div>
+    </li>
+    <li>
+        <div class="nemo3">
+            <h3 class="small_text">구매고객 감사 이벤트</h3>
+            <h1 class="large_text">동남아 요리 특집</h1>
+        </div>
+    </li>
+    <li>
+        <a href="javascript:return false;"><div class="nemo4"></div></a>
+    </li>
+    </ul>
+    </div>
+
+    <div id="footer_wrap">
+        <div class="footer">
+        <a href="../index.html"><img src="images/logo_footer.svg" alt="main"></a>
+
+        <ul class="sns">
+            <li><a href="javascript:return false;"><img src="images/instagram.png" alt=""></a></li>
+            <li><a href="javascript:return false;"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="javascript:return false;"><img src="images/twitter.png" alt=""></a></li>
+        </ul>
+
+        <ul class="footer_menu">
+            <li><a href="../Brand/brand.html">BRAND</a></li>
+            <li><a href="../Menu/menu.html">MENU</a></li>
+            <li><a href="../Event/event.html">EVENT</a></li>
+            <li><a href="../Customer/customer.html">CUSTOMER</a></li>
+        </ul>
+       
+        <p class="address">
+            경성특별시 을동구 을동로 21길 10 TEL : 02-1234-1234 / FAX : 02-2169-3828 <br>
+            대표 : 조리나 / 사업자등록번호 : 107-81-3302 <br>
+            COPYRIGHT ⓒ 2023 BY DAMEUM., LTD. ALL RIGHTS RESERVED.
+        </p>
+        
+    </div>
+    </div>
+
+
+    
+
+      
+    
+    
+    
+    
+    
+    
+    
+    <!--Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+          var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 1,//한장씩 보임
+              spaceBetween: 0,//이미지사이 공간
+              loop: true,//반복
+              autoplay: {//자동재생
+                  delay: 4000,//슬라이드 넘어가는 시간
+                  disableOnInteraction: true,//클릭이동후 다시 슬라이드
+              },
+              pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+              },
+              navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+              },
+          });
+      </script>
+
+
+</body>
+</html>
